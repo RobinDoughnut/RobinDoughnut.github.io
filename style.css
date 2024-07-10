@@ -10,6 +10,11 @@ header
     background-position: center;
     background-size: cover;
 }
+@media (max-width: 600px) {
+    header {
+        background-position: right 10% center;
+    }
+}
 .hero
 {
     top: 50%;
